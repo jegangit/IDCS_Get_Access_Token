@@ -1,0 +1,1 @@
+curl -k -X POST -u "<clientid:clientsecret>" -d "grant_type=client_credentials&scope=urn:opc:idm:__myscopes__" "https://idcs-9dc693e80d9b469480d7afe00e743931.identity.oraclecloud.com/oauth2/v1/token" -o access_token.json
